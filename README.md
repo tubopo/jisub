@@ -56,7 +56,3 @@ This would allow to have your own jira mapping.
 
 + `issue.tmpl` - is used for the ticket fields update with the `--fields` flag.
 + `sub-tasks-bulk.tmpl` - is used for the sub tasks creation with the `--sub-tasks` flag.
-
-### Support
-
-[![bmc](https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-1.svg)](https://www.buymeacoffee.com/darkowl91)

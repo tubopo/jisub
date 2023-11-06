@@ -1,14 +1,14 @@
 # 📋 jisub
 
-![ci-build](https://github.com/darkowl91/jisub/actions/workflows/ci-branch.yaml/badge.svg)
-[![Go Report Card](https://goreportcard.com/badge/github.com/darkowl91/jisub)](https://goreportcard.com/report/github.com/darkowl91/jisub)
-[![MIT License](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/darkowl91/sys-dia-log/blob/master/LICENSE)
+![ci-build](https://github.com/tubopo/jisub/actions/workflows/ci-branch.yaml/badge.svg)
+[![Go Report Card](https://goreportcard.com/badge/github.com/tubopo/jisub)](https://goreportcard.com/report/github.com/tubopo/jisub)
+[![MIT License](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/tubopo/sys-dia-log/blob/master/LICENSE)
 
 > CLI tool to simplify jira tickets interaction
 
 ## Install
 
-Download [latest release](https://github.com/darkowl91/jisub/releases/latest) version. Extract to user home dir.
+Download [latest release](https://github.com/tubopo/jisub/releases/latest) version. Extract to user home dir.
 Add jisub executable to PATH `export PATH=$PATH:~/jisub`
 
 ## Config

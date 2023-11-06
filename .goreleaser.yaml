@@ -13,7 +13,6 @@ builds:
 archives:
   - format: tar.gz
     files:
-      - jisub-config.ini
       - issue.tmpl
       - sub-task-bulk.tmpl
       - sub-task.tmpl

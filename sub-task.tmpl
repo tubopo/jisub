@@ -1,0 +1,15 @@
+{
+    "fields": {
+        "summary": "{{.Prefix}}: {{.Parent.Fields.Summary}}",
+        "customfield_10004": {{.StoryPoints}},
+        "issuetype": {
+            "id": "5"
+        },
+        "project": {
+            "id": "{{.Parent.Fields.Project.Id}}"
+        },
+        "parent": {
+            "id": "{{.Parent.Key}}"
+        }
+    }
+}

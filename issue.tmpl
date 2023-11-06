@@ -1,0 +1,22 @@
+{
+    "fields": {
+        {{if .UpdateData.dealsize }}
+            "customfield_26606": "{{index .UpdateData "dealsize"}}"
+        {{end}}
+
+        {{if .UpdateData.storypoints }}
+            ,"customfield_10004": {{index .UpdateData "storypoints"}}
+        {{end}}
+
+        {{if .UpdateData.label }}
+            ,"labels": [
+                {{ if .Parent.Fields.Labels }}
+                    {{- range $index, $value := .Parent.Fields.Labels }}
+                        "{{$value}}",
+                    {{end}}
+                {{end}}
+                "{{.UpdateData.label}}"
+                ]
+        {{end}}
+    }
+}

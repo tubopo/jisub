@@ -1,0 +1,10 @@
+.vscode
+.DS_Store
+release
+jisub
+jisub.exe
+debug
+debug.test
+
+dist/
+jisub-config.ini
